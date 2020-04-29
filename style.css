@@ -41,7 +41,7 @@ table, th, td {
 iframe {
   display: block;
   margin: 20px auto !important;
-  width: 65%;
+  width: 80%;
   height: 400px;
 }
 
@@ -88,7 +88,7 @@ li {
   iframe {
     display: block;
     margin: 20px auto !important;
-    width: 60%;
+    width: 80%;
     height: 200px;
   }
 }
