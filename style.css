@@ -27,9 +27,9 @@
 
 table {
   text-align: center;
-  width: 800px;
   margin: auto;
   margin-bottom: 40px;
+  width: 80%;
 }
 
 table, th, td {
@@ -38,37 +38,11 @@ table, th, td {
   margin-top: 10px;
 }
 
-#navbarNavAltMarkup {
-  background-color: #5B1957 !important;
-  padding: 0px !important;
-  margin: 0px !important;
-  color: white;
-}
-
-.navbar {
-  margin: 0 !important;
-  padding: 0px !important;
-  color: white !important;
-}
-
-.nav-item {
-  color: white !important;
-  border-right: 1px solid black;
-}
-
-.nav-item:last-of-type {
-  border: none !important;
-}
-
-.nav-item:first-of-type {
-  padding-left: 100px !important;
-}
-
 iframe {
   display: block;
   margin: 20px auto !important;
-  width: 700px;
-  height: 450px;
+  width: 50%;
+  height: 400px;
 }
 
 p {
@@ -103,10 +77,6 @@ h2 {
 }
 
 @media (max-width: 980px) {
-  table {
-    width: 450px;
-  }
-
   .nav-item {
     color: white !important;
     border-right: 1px solid black;
@@ -115,8 +85,8 @@ h2 {
   iframe {
     display: block;
     margin: 20px auto !important;
-    width: 400px;
-    height: 240px;
+    width: 200px;
+    height: 100px;
   }
 }
 .all .container {
@@ -125,6 +95,43 @@ h2 {
 
 a {
   padding: 0;
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+nav {
+  background-color: #5B1957;
+  color: white !important;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.navbar {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.navbar-nav {
+  display: table;
+  width: 100%;
+  margin: 0;
+}
+
+.navbar-nav > li {
+  float: none;
+  display: table-cell;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  table {
+    margin-bottom: 300px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
