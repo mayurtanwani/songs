@@ -85,7 +85,7 @@ h2 {
   iframe {
     display: block;
     margin: 20px auto !important;
-    width: 350px;
+    width: 60%;
     height: 200px;
   }
 }
