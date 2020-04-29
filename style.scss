@@ -115,7 +115,7 @@ h2{
      .nav-item{
 
         color: white !important;
-        border-right: 1px solid black;
+        border: 1px solid rgb(255, 255, 255) !important;
     
     }
 
@@ -157,6 +157,7 @@ nav{
  }
 
  .nav-link{
+    border: 1px solid rgb(255, 255, 255) !important;
 
     color: white !important;
  }
