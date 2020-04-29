@@ -76,10 +76,13 @@ h2 {
   background-color: #6244e5;
 }
 
+li {
+  border: 1px solid white !important;
+}
+
 @media (max-width: 980px) {
   .nav-item {
     color: white !important;
-    border: 1px solid white !important;
   }
 
   iframe {
@@ -108,7 +111,6 @@ nav {
 }
 
 .nav-link {
-  border: 1px solid white !important;
   color: white !important;
 }
 
