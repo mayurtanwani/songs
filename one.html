@@ -3,9 +3,12 @@
 <head>
     <title>Tonight's today</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 
   </head>
 <body>
@@ -27,7 +30,12 @@
 
         </div>
     </div>
-    <nav class="navbar navbar-expand-sm fixed-bottom">
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-bottom">
+  
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"> <span class="menu">Menu</span>  </span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav row mx-auto">
         <li class="nav-item  col-lg-2 col-sm-6">
           <a class="nav-link"  href="index.html">Home</a>
@@ -55,9 +63,10 @@
     
       </ul>
     
+    </div>
     
     
-    </nav>    
+    </nav>   
     
 </div>        
 </body>

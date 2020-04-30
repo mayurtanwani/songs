@@ -189,6 +189,30 @@ nav{
 
     table{
 
-        margin-bottom: 300px;
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+
+    .navbar-toggler{
+
+        height: 50px;
+    }
+
+    .text{
+
+        margin-top: 80px !important;
     }
 }
+
+.navbar-toggler-icon{
+
+    color: white !important;
+}
+.menu {
+    display:table;
+    margin:0 auto;
+    margin-left: 200px;
+    font-size: 25px !important;
+    font-weight: bold;
+    color: white !important;
+    }
