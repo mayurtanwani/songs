@@ -144,6 +144,15 @@ nav {
   .text {
     margin-top: 80px !important;
   }
+
+  .menu {
+    display: table;
+    margin-left: 125px !important;
+    width: 100% !important;
+    font-size: 25px !important;
+    font-weight: bold;
+    color: white !important;
+  }
 }
 .navbar-toggler-icon {
   color: white !important;
@@ -151,8 +160,8 @@ nav {
 
 .menu {
   display: table;
-  margin: 0 auto;
-  margin-left: 200px;
+  margin-left: 200px !important;
+  width: 100% !important;
   font-size: 25px !important;
   font-weight: bold;
   color: white !important;
