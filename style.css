@@ -139,6 +139,8 @@ nav {
 
   .navbar-toggler {
     height: 50px;
+    margin: 0px;
+    padding: 8px !important;
   }
 
   .text {
@@ -147,7 +149,7 @@ nav {
 
   .menu {
     display: table;
-    margin-left: 125px !important;
+    margin-left: 40vw !important;
     width: 100% !important;
     font-size: 25px !important;
     font-weight: bold;
@@ -160,7 +162,7 @@ nav {
 
 .menu {
   display: table;
-  margin-left: 200px !important;
+  margin-left: 40vw !important;
   width: 100% !important;
   font-size: 25px !important;
   font-weight: bold;
